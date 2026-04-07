@@ -1,5 +1,4 @@
-mkdirapp
-touch app/__init__.py
-touch app/routes.py
-touch run.py
-touch requirements.txt
+from app import create_app
+app = create_app()
+if__name__ == "__main__":
+app.run(debug=True)
